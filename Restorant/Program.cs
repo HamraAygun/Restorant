@@ -7,7 +7,7 @@ internal class Program
     {
         //Kategori
         clsCategory clsCategory = new clsCategory();
-        clsCategory.CADID = 1;
+        clsCategory.CADID = 2;
         clsCategory.CatName = "Çorbalar";
 
         Console.WriteLine("Kategori Listesi");
@@ -29,7 +29,7 @@ internal class Program
         Console.WriteLine(clsMenu.MenuID.ToString() + "\t" + clsMenu .FoodName + "\t" + clsMenu.FoodPrice + "TL");
 
 
-        
+      
         Console.ReadKey();
     }
 }
