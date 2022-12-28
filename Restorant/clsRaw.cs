@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Restorant
 {
     internal class clsRaw
-    {
+    { // Hammadde bilgilerimi tutan classım..
+
         public int RawID { get; set; }
         public string RawName { get; set; } = string.Empty;
         public int RawAmount { get; set; }
