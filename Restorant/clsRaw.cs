@@ -12,5 +12,6 @@ namespace Restorant
         public string RawName { get; set; } = string.Empty;
         public int RawAmount { get; set; }
 
+
     }
 }

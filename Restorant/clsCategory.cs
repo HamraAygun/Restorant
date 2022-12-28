@@ -13,7 +13,7 @@ namespace Restorant
 
         }
 
-        public int CADID { get; set; }
+        public int CADID { get; set; } // sistemdeki her kategorisinin bir kod değeri var..
         public string CatName { get; set; }
     }
 }

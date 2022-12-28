@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Restorant
 {
     internal class clsMenu
-    {
+    {// restoranın menüsünü gösteren class.
         public clsMenu() // Yapıcı Metot (constructor)
         { 
         

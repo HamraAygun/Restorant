@@ -7,7 +7,7 @@ internal class Program
     {
         //Kategori
         clsCategory clsCategory = new clsCategory();
-        clsCategory.CADID = 2;
+        clsCategory.CADID = 1;
         clsCategory.CatName = "Çorbalar";
 
         Console.WriteLine("Kategori Listesi");
@@ -18,15 +18,28 @@ internal class Program
 
         clsMenu clsMenu = new clsMenu();
 
-        clsMenu.MenuID = 1;
+        clsMenu.MenuID = 2;
         clsMenu.MenuName = "P100KY Restorant Menü";
-        clsMenu.FoodName = "Merci Çorba";
+        clsMenu.FoodName = "Mercimek Çorba";
         clsMenu.FoodPrice = 40;
         clsMenu.CatID = 1;
 
         Console.WriteLine(clsMenu.MenuName + "Yemek Listesi: ");
         Console.WriteLine("======== " + "\n\n");
-        Console.WriteLine(clsMenu.MenuID.ToString() + "\t" + clsMenu .FoodName + "\t" + clsMenu.FoodPrice + "TL");
+        Console.WriteLine(clsMenu.MenuID + "\t" + clsMenu .FoodName + "\t" + clsMenu.FoodPrice + "TL");
+
+
+        clsRaw clsRaw = new clsRaw();
+
+        clsRaw.RawID = 3;
+        clsRaw.RawName = "onion";
+        clsRaw.RawAmount = 1;
+
+        Console.WriteLine("Malzemeler Listesi");
+        Console.WriteLine("======== " + "\n\n");
+        Console.WriteLine(clsRaw.RawID + "\t" + clsRaw.RawName + "\t" + clsRaw.RawAmount + "kg");
+
+        
 
 
       
